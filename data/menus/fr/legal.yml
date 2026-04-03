@@ -28,8 +28,8 @@ items:
   descendants_targets: []
   path: "/pages/politique-de-confidentialite"
   file: content/fr/pages/politique-de-confidentialite/_index.html
-- title: 'Page d''accueil '
-  slug: page-d-accueil
+- title: "?"
+  slug: ''
   target: "/accueil/"
   kind: page
   new_tab: false
