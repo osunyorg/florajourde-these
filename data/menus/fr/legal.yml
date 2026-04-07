@@ -28,8 +28,8 @@ items:
   descendants_targets: []
   path: "/pages/politique-de-confidentialite"
   file: content/fr/pages/politique-de-confidentialite/_index.html
-- title: Partenaires du projet
-  slug: partenaires-du-projet
+- title: Plan du site
+  slug: plan-du-site
   target: "/accueil/"
   kind: page
   new_tab: false
