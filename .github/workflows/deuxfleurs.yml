@@ -30,14 +30,14 @@ jobs:
     - name: Installation de Hugo
       uses: noesya/actions-hugo@release
       with:
-        hugo-version: '0.157.0'
+        hugo-version: '0.159.2'
         extended: true
 
     - name: Compilation du site
       run: yarn osuny build
 
     - name: Déploiement Garage
-      run: npx --yes dxfl deploy these.florajourde.osuny.site public/ --yes
+      run: npx --yes dxfl deploy www.droits-familles-majeurs-proteges.fr public/ --yes
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.DEUXFLEURS_ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.DEUXFLEURS_SECRET }}
